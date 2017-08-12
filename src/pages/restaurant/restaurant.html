@@ -1,0 +1,29 @@
+<!--
+  Generated template for the RestaurantPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title>Restaurants</ion-title>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list>
+  <ion-item *ngFor="let aw of data" (click)="clickRestaurant(aw.id)">
+    <ion-thumbnail item-start>
+      <img src="img/{{aw.id}}.jpg">
+    </ion-thumbnail>
+    <h2>{{aw.title}}</h2>
+  </ion-item>
+</ion-list>
+
+</ion-content>
