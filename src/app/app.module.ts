@@ -24,7 +24,19 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    // LagunaPage,
+    // CityPage,
+    // TouristPage,
+    // AboutPage,
+    //  PrivatePage,
+    // RestaurantPage,
+    // CraftPage,
+    // CityinfoPage,
+    // PrivateinfoPage,
+    // TouristinfoPage,
+    // CraftinfoPage,
+    // RestaurantinfoPage
     
     
   ],
